@@ -1,7 +1,11 @@
+# Folders
 /node_modules
 /.vscode
 **/__pycache__
+
+# Files
 .env
 **.sqlite*
 Pipfile.lock
 yarn.lock
+**/*-bundle.*
