@@ -1,0 +1,17 @@
+{
+  "name": "mythicalpanel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "michael",
+  "license": "MIT",
+  "scripts": {
+    "pack": "webpack --mode development",
+    "serve": "python manage.py runserver && yarn pack"
+  },
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "css-loader": "^5.0.1",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0"
+  }
+}
