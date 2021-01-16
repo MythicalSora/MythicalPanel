@@ -7,7 +7,7 @@ name = "pypi"
 django = "*"
 mctools = "*"
 fontawesome-free = "*"
-environ = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
